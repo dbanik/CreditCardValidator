@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B627A5EE1CCBF665004D8106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B627A5ED1CCBF665004D8106 /* main.m */; };
+		B627A5F11CCBF665004D8106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B627A5F01CCBF665004D8106 /* AppDelegate.m */; };
+		B627A5F41CCBF665004D8106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B627A5F31CCBF665004D8106 /* ViewController.m */; };
+		B627A5F71CCBF665004D8106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B627A5F51CCBF665004D8106 /* Main.storyboard */; };
+		B627A5F91CCBF665004D8106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B627A5F81CCBF665004D8106 /* Assets.xcassets */; };
+		B627A5FC1CCBF665004D8106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B627A5FA1CCBF665004D8106 /* LaunchScreen.storyboard */; };
+		B627A6071CCBF665004D8106 /* CreditCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B627A6061CCBF665004D8106 /* CreditCardValidatorTests.m */; };
+		B627A6121CCBF665004D8106 /* CreditCardValidatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B627A6111CCBF665004D8106 /* CreditCardValidatorUITests.m */; };
+		B627A6211CCBF6CF004D8106 /* ECCreditCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B627A6201CCBF6CF004D8106 /* ECCreditCard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B627A6031CCBF665004D8106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B627A5E11CCBF665004D8106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B627A5E81CCBF665004D8106;
+			remoteInfo = CreditCardValidator;
+		};
+		B627A60E1CCBF665004D8106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B627A5E11CCBF665004D8106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B627A5E81CCBF665004D8106;
+			remoteInfo = CreditCardValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B627A5E91CCBF665004D8106 /* CreditCardValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B627A5ED1CCBF665004D8106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B627A5EF1CCBF665004D8106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B627A5F01CCBF665004D8106 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B627A5F21CCBF665004D8106 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B627A5F31CCBF665004D8106 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B627A5F61CCBF665004D8106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B627A5F81CCBF665004D8106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B627A5FB1CCBF665004D8106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B627A5FD1CCBF665004D8106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B627A6021CCBF665004D8106 /* CreditCardValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B627A6061CCBF665004D8106 /* CreditCardValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardValidatorTests.m; sourceTree = "<group>"; };
+		B627A6081CCBF665004D8106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B627A60D1CCBF665004D8106 /* CreditCardValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardValidatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B627A6111CCBF665004D8106 /* CreditCardValidatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardValidatorUITests.m; sourceTree = "<group>"; };
+		B627A6131CCBF665004D8106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B627A61F1CCBF6CF004D8106 /* ECCreditCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECCreditCard.h; path = CreditCardValidator/ECCreditCard.h; sourceTree = "<group>"; };
+		B627A6201CCBF6CF004D8106 /* ECCreditCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECCreditCard.m; path = CreditCardValidator/ECCreditCard.m; sourceTree = "<group>"; };
+		B627A6231CCE0E69004D8106 /* ECCreditCardConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ECCreditCardConstants.h; path = CreditCardValidator/ECCreditCardConstants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B627A5E61CCBF665004D8106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B627A5FF1CCBF665004D8106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B627A60A1CCBF665004D8106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B627A5E01CCBF665004D8106 = {
+			isa = PBXGroup;
+			children = (
+				B627A6221CCBF6E4004D8106 /* CreditCard */,
+				B627A5EB1CCBF665004D8106 /* CreditCardValidator */,
+				B627A6051CCBF665004D8106 /* CreditCardValidatorTests */,
+				B627A6101CCBF665004D8106 /* CreditCardValidatorUITests */,
+				B627A5EA1CCBF665004D8106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B627A5EA1CCBF665004D8106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B627A5E91CCBF665004D8106 /* CreditCardValidator.app */,
+				B627A6021CCBF665004D8106 /* CreditCardValidatorTests.xctest */,
+				B627A60D1CCBF665004D8106 /* CreditCardValidatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B627A5EB1CCBF665004D8106 /* CreditCardValidator */ = {
+			isa = PBXGroup;
+			children = (
+				B627A5EF1CCBF665004D8106 /* AppDelegate.h */,
+				B627A5F01CCBF665004D8106 /* AppDelegate.m */,
+				B627A5F21CCBF665004D8106 /* ViewController.h */,
+				B627A5F31CCBF665004D8106 /* ViewController.m */,
+				B627A5F51CCBF665004D8106 /* Main.storyboard */,
+				B627A5F81CCBF665004D8106 /* Assets.xcassets */,
+				B627A5FA1CCBF665004D8106 /* LaunchScreen.storyboard */,
+				B627A5FD1CCBF665004D8106 /* Info.plist */,
+				B627A5EC1CCBF665004D8106 /* Supporting Files */,
+			);
+			path = CreditCardValidator;
+			sourceTree = "<group>";
+		};
+		B627A5EC1CCBF665004D8106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B627A5ED1CCBF665004D8106 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B627A6051CCBF665004D8106 /* CreditCardValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B627A6061CCBF665004D8106 /* CreditCardValidatorTests.m */,
+				B627A6081CCBF665004D8106 /* Info.plist */,
+			);
+			path = CreditCardValidatorTests;
+			sourceTree = "<group>";
+		};
+		B627A6101CCBF665004D8106 /* CreditCardValidatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B627A6111CCBF665004D8106 /* CreditCardValidatorUITests.m */,
+				B627A6131CCBF665004D8106 /* Info.plist */,
+			);
+			path = CreditCardValidatorUITests;
+			sourceTree = "<group>";
+		};
+		B627A6221CCBF6E4004D8106 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				B627A61F1CCBF6CF004D8106 /* ECCreditCard.h */,
+				B627A6201CCBF6CF004D8106 /* ECCreditCard.m */,
+				B627A6231CCE0E69004D8106 /* ECCreditCardConstants.h */,
+			);
+			name = CreditCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B627A5E81CCBF665004D8106 /* CreditCardValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B627A6161CCBF666004D8106 /* Build configuration list for PBXNativeTarget "CreditCardValidator" */;
+			buildPhases = (
+				B627A5E51CCBF665004D8106 /* Sources */,
+				B627A5E61CCBF665004D8106 /* Frameworks */,
+				B627A5E71CCBF665004D8106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardValidator;
+			productName = CreditCardValidator;
+			productReference = B627A5E91CCBF665004D8106 /* CreditCardValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B627A6011CCBF665004D8106 /* CreditCardValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B627A6191CCBF666004D8106 /* Build configuration list for PBXNativeTarget "CreditCardValidatorTests" */;
+			buildPhases = (
+				B627A5FE1CCBF665004D8106 /* Sources */,
+				B627A5FF1CCBF665004D8106 /* Frameworks */,
+				B627A6001CCBF665004D8106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B627A6041CCBF665004D8106 /* PBXTargetDependency */,
+			);
+			name = CreditCardValidatorTests;
+			productName = CreditCardValidatorTests;
+			productReference = B627A6021CCBF665004D8106 /* CreditCardValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B627A60C1CCBF665004D8106 /* CreditCardValidatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B627A61C1CCBF666004D8106 /* Build configuration list for PBXNativeTarget "CreditCardValidatorUITests" */;
+			buildPhases = (
+				B627A6091CCBF665004D8106 /* Sources */,
+				B627A60A1CCBF665004D8106 /* Frameworks */,
+				B627A60B1CCBF665004D8106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B627A60F1CCBF665004D8106 /* PBXTargetDependency */,
+			);
+			name = CreditCardValidatorUITests;
+			productName = CreditCardValidatorUITests;
+			productReference = B627A60D1CCBF665004D8106 /* CreditCardValidatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B627A5E11CCBF665004D8106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Debaprio Banik";
+				TargetAttributes = {
+					B627A5E81CCBF665004D8106 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B627A6011CCBF665004D8106 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B627A5E81CCBF665004D8106;
+					};
+					B627A60C1CCBF665004D8106 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B627A5E81CCBF665004D8106;
+					};
+				};
+			};
+			buildConfigurationList = B627A5E41CCBF665004D8106 /* Build configuration list for PBXProject "CreditCardValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B627A5E01CCBF665004D8106;
+			productRefGroup = B627A5EA1CCBF665004D8106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B627A5E81CCBF665004D8106 /* CreditCardValidator */,
+				B627A6011CCBF665004D8106 /* CreditCardValidatorTests */,
+				B627A60C1CCBF665004D8106 /* CreditCardValidatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B627A5E71CCBF665004D8106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B627A5FC1CCBF665004D8106 /* LaunchScreen.storyboard in Resources */,
+				B627A5F91CCBF665004D8106 /* Assets.xcassets in Resources */,
+				B627A5F71CCBF665004D8106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B627A6001CCBF665004D8106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B627A60B1CCBF665004D8106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B627A5E51CCBF665004D8106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B627A5F41CCBF665004D8106 /* ViewController.m in Sources */,
+				B627A5F11CCBF665004D8106 /* AppDelegate.m in Sources */,
+				B627A6211CCBF6CF004D8106 /* ECCreditCard.m in Sources */,
+				B627A5EE1CCBF665004D8106 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B627A5FE1CCBF665004D8106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B627A6071CCBF665004D8106 /* CreditCardValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B627A6091CCBF665004D8106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B627A6121CCBF665004D8106 /* CreditCardValidatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B627A6041CCBF665004D8106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B627A5E81CCBF665004D8106 /* CreditCardValidator */;
+			targetProxy = B627A6031CCBF665004D8106 /* PBXContainerItemProxy */;
+		};
+		B627A60F1CCBF665004D8106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B627A5E81CCBF665004D8106 /* CreditCardValidator */;
+			targetProxy = B627A60E1CCBF665004D8106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B627A5F51CCBF665004D8106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B627A5F61CCBF665004D8106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B627A5FA1CCBF665004D8106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B627A5FB1CCBF665004D8106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B627A6141CCBF666004D8106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B627A6151CCBF666004D8106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B627A6171CCBF666004D8106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreditCardValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = banikApps.CreditCardValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B627A6181CCBF666004D8106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CreditCardValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = banikApps.CreditCardValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B627A61A1CCBF666004D8106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreditCardValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = banikApps.CreditCardValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditCardValidator.app/CreditCardValidator";
+			};
+			name = Debug;
+		};
+		B627A61B1CCBF666004D8106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreditCardValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = banikApps.CreditCardValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditCardValidator.app/CreditCardValidator";
+			};
+			name = Release;
+		};
+		B627A61D1CCBF666004D8106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreditCardValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = banikApps.CreditCardValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreditCardValidator;
+			};
+			name = Debug;
+		};
+		B627A61E1CCBF666004D8106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreditCardValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = banikApps.CreditCardValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CreditCardValidator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B627A5E41CCBF665004D8106 /* Build configuration list for PBXProject "CreditCardValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B627A6141CCBF666004D8106 /* Debug */,
+				B627A6151CCBF666004D8106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B627A6161CCBF666004D8106 /* Build configuration list for PBXNativeTarget "CreditCardValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B627A6171CCBF666004D8106 /* Debug */,
+				B627A6181CCBF666004D8106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B627A6191CCBF666004D8106 /* Build configuration list for PBXNativeTarget "CreditCardValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B627A61A1CCBF666004D8106 /* Debug */,
+				B627A61B1CCBF666004D8106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B627A61C1CCBF666004D8106 /* Build configuration list for PBXNativeTarget "CreditCardValidatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B627A61D1CCBF666004D8106 /* Debug */,
+				B627A61E1CCBF666004D8106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B627A5E11CCBF665004D8106 /* Project object */;
+}
